@@ -74,6 +74,13 @@
   border: 1px solid #ddd;
   border-radius: 10px;
 }
+    h1 {
+      margin-bottom: 20px; 
+    }
+
+    p {
+      margin-top: 10px; 
+    }
 
 @media (max-width: 768px) {
   .top-section {
