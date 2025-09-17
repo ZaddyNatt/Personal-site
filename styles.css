@@ -74,13 +74,17 @@
   border: 1px solid #ddd;
   border-radius: 10px;
 }
-    h1 {
-      margin-bottom: 20px; 
-    }
 
-    p {
-      margin-top: 10px; 
-    }
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.about-me p,
+.hobbies p,
+.aspirations p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
 
 @media (max-width: 768px) {
   .top-section {
